@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+     border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type: none;     /*önündeki noktaları kaldırdı*/
+    display: inline-block;     /*yanyana yazdı*/ 
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;   /*altındaki çizgiyi kaldırdı*/
+    color: #fff;           /*linklerin rengini beyaz yaptık*/
+} 
+.navbar ul li a:hover{
+    box-shadow: 0px 2px rgb(236, 0, 0);
+    transition: 0.5s;
+} 
+.form button{
+    background-color: #464345;
+}
+
+ .container{
+    background-color: #fff;
+    max-width:350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin: auto;
+}
+.container .logoo img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+} 
+.content{
+    width: 100%;
+    position: absolute;    /*sayfanın kenarlarına göre kendini hizaladı*/
+    top: 40%;             /*yukarıdan %40lık boşluk bıraktı*/
+    color: white;
+    text-align: center;     /*ortaladık*/
+}
+.content h1{
+    font-size: 65px;
+}
+.content p{
+    margin: 20px auto;  /*sağdan soldan ortalama,alttan üstten 20px boşluk bıraktı.*/
+}
+.resimler{
+    width:100%;
+    height:50px ;
+}
+/*buton yapımı*/
+.sosyalbutonlar{
+	margin-top:25px;
+	display: inline-block;
+	position: relative;
+    left: 500px;
+    text-align: center;
+    margin-left:-525px;
+	}
+	
+.sosyalbutonlar a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+  }  
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+ .sosyalbutonlar .instagram:hover   {
+      background-color: #bc2a8d;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+ .sosyalbutonlar .linkedin:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+ }
+ /*buton yapımı*/
